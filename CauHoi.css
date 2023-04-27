@@ -1,0 +1,97 @@
+
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 600px;
+			margin: 20px auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		}
+
+		/*css cho list cau hoi 1234*/
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+			
+          }
+          
+          li.square {
+            display: inline-block;
+            margin-right: 10px;
+            border: 1px solid black;
+            padding: 10px;
+            cursor: pointer;
+          }
+          
+          li.square:hover {
+            background-color: #eee;
+          }
+          
+          input.checkbox {
+            display: none;
+          }
+          
+          input.checkbox:checked + label {
+            background-color: #ccc;
+          }
+		.square{
+			width: 10px;
+			height: 10px;
+			background-color: #008000;
+			border-radius: 10px;
+			border: 2px solid #808080;
+			padding: 10px;
+			margin: 10px;
+		}
+		  
+          
+		h1 {
+			margin-top: 0;
+		}
+
+		form {
+			margin: 20px 0;
+		}
+
+		.square {
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		.answer {
+			margin-left: 20px;
+			font-weight: normal;
+		}
+
+		input[type="radio"] {
+			margin-right: 10px;
+		}
+
+		input[type="submit"] {
+			display: block;
+			margin: 20px auto 0;
+			padding: 10px;
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+		.result {
+			margin-top: 20px;
+			font-weight: bold;
+			text-align: center;
+		}
